@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Josefin Sans;
+    background: #f8dfd1;    
+}
+
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin-inline: auto; 
+    padding-inline: 40px;
+}
+
+.body{
+  
+}
+
+/* HEADER START */
+
+.healas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.healas nav{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.healas nav a{
+   color: rgba(68, 99, 129, 1);
+   font-family: Josefin Sans;
+}
+
+.healas button{
+    color: #fff;
+    background: linear-gradient(94.66deg, #4499D9 17.46%, #7367BE 87.77%);
+    border-radius: 25px;
+    width: 140px;
+    height: 40px;
+    
+}
+
+/* HEADER END */
+
+/* SECTION1 START */
+
+.boss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.playboy h3{
+    color: rgba(68, 99, 129, 1);
+    padding-bottom: 10px;
+}
+
+.playboy h1 {
+    font-size:clamp(1.563rem, 0.889rem + 3.37vw, 3.025rem) ;
+    font-weight: 600;
+    color: rgba(235, 131, 130, 1);
+    max-width: 400px;
+    padding-bottom: 15px;
+}
+
+.playboy h1 span{
+    color: rgb(68, 99, 129);
+}
+
+.playboy p{
+    color: rgba(130, 111, 140, 1);
+    max-width: 460px;
+    padding-bottom: 17px;
+}
+
+.playboy button{
+    color: #fff;
+    background: linear-gradient(94.66deg, #4499D9 17.46%, #7367BE 87.77%);
+    border-radius: 25px;
+    width: 140px;
+    height: 40px;
+}
+
+.playboy-logo img {
+    max-width: 550px;
+    padding-top: 30px;
+}
+
+/* SECTION1 END */
+
+/* SECTION2 START */
+
+.visual{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.visual-text h3{
+    color: rgba(68, 99, 129, 1);
+    padding-bottom: 10px;
+}
+
+.visual-text h1{
+    font-size:clamp(1.563rem, 0.889rem + 3.37vw, 3.025rem) ;
+    font-weight: 600;
+    color: rgba(235, 131, 130, 1);
+    max-width: 500px;
+    padding-bottom: 15px;
+}
+
+.visual-text p{
+    color: rgba(130, 111, 140, 1);
+    max-width: 460px;
+    padding-bottom: 17px;
+}
+
+.visual-text button{
+    color: #fff;
+    background: linear-gradient(94.66deg, #4499D9 17.46%, #7367BE 87.77%);
+    border-radius: 25px;
+    width: 140px;
+    height: 40px;
+}
+
+/* SECTION2 END */
+
+/* SECTION3 START */
+
+.game-boss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game-text h3{
+    color: rgba(68, 99, 129, 1);
+    padding-bottom: 10px;
+}
+
+.game-text h1{
+    font-size:clamp(1.563rem, 0.889rem + 3.37vw, 3.025rem) ;
+    font-weight: 600;
+    color: rgba(235, 131, 130, 1);
+    max-width: 500px;
+    padding-bottom: 15px;
+}
+
+.game-text p{
+    color: rgba(130, 111, 140, 1);
+    max-width: 460px;
+    padding-bottom: 17px;
+}
+
+.game-text button{
+    color: #fff;
+    background: linear-gradient(94.66deg, #4499D9 17.46%, #7367BE 87.77%);
+    border-radius: 25px;
+    width: 140px;
+    height: 40px;
+}
+
+/* SECTION3 END */
+
+/* SECTION4 START */
+
+.theme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.theme p{
+    color: rgba(130, 111, 140, 1);
+    padding-top: 70px;
+}
+
+.theme h1{
+    font-size:clamp(1.563rem, 0.889rem + 3.37vw, 3.025rem) ;
+    font-weight: 600;
+    color: rgba(235, 131, 130, 1);
+    max-width: 500px;
+    padding-bottom: 35px;
+    padding-top: 15px;
+}
+
+
+/* SECTION4 END */
